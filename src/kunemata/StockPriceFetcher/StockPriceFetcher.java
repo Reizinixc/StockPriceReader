@@ -19,4 +19,10 @@ public class StockPriceFetcher extends Observable {
 	public String getLastedUpdated() {
 		return stockPriceReader.getLastUpdated();
 	}
+	
+	@Override
+	public void notifyObservers(Object arg) {
+		setChanged();
+		super.notifyObservers(arg);
+	}
 }
