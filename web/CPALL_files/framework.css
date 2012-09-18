@@ -1,0 +1,394 @@
+/*Container der centrerer indholdet*/
+.content{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.mainDiv{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	padding-top:0px;
+	width:996px;
+}
+
+
+/*Første pixellinje i menuen*/
+.menuTopPixel{
+	background-color:lightgray;
+	float:left;
+	height:1px;
+	overflow:hidden;
+	width:996px;
+}
+
+/*Indeholder 1.level i menuen  background-color:#859EAB; */
+.menuTable1Level{
+	/*background-color:#154473;*/
+	height:34px;
+	//width:924px;
+	//width:754px;
+	width:775px;
+}
+
+
+.menuTable1Level .floater{
+    background-color:#859EAB;
+    float:none;
+}
+
+/*teksten i 1.level*/
+.menuMainDiv{
+	width:924px;
+	height:38px;
+}
+.menuMainDiv a{
+	/*color:#154473;
+	font-size:10px;
+	height:18px;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:2px;
+	text-decoration:none;*/
+	background-color:#CCCCCC;
+}
+
+.menuMainDiv a:hover{
+	background-color:#CCCCCC;
+	/*color:#365060;
+	padding-top:2px;*/
+}
+
+/*spacer til venstre i 1.level*/
+.emptyLeft{
+	float:left;
+	height:17px;
+	overflow:hidden;
+	width:20px;
+}
+
+/*1 pixel bred linje mellem menupunkter*/
+.menuSpacerPixel{
+	background-color:#FFFFFF;
+	float:left;
+	height:25px;
+	width:1px;
+}
+
+.menuSpacerPixelGifs{
+	background-color:lightgray;
+	float:right;
+	font-size:10px;
+	height:17px;
+	width:1px;
+}
+
+/*mellemrum mellem menupunkter og giffer*/
+/*giffer i 1.level*/
+.menuFirstLevelGifs{
+	background-color:#9CB5C2;
+	cursor:hand;
+	float:right;
+	width:30px;
+	height:100%;
+	padding-top:2px;
+	padding-left:5px;
+}
+
+.menuFirstLevelGifs img{
+    border:0;
+}
+
+.countrygif img{
+    border:0;
+}
+/*spacer til højre i 1.level*/
+.emptyRight{
+	float:right;
+	height:17px;
+	overflow:hidden;
+	width:30px;
+}
+/*Anden pixellinje i menuen*/
+.menuMiddelPixel{
+	background-color:lightgray;
+	float:left;
+	height:1px;
+	overflow:hidden;
+	width:996px;
+}
+/*indeholder 2. level i menuen */
+.menuTable2Level{
+	background-color:#E2EDF3; /*#CCCCCC;*/
+	height:17px;
+	overflow:hidden;
+}
+
+.openingHours{
+	color:#CC3300;
+	float:right;
+	font-size:10px;
+	padding-right:30px;
+	padding-top:2px;
+}
+
+.openingHours a{
+    text-decoration:none;
+}
+
+.menuSecondLevel{
+    height:17px;
+}
+
+.menuSecondLevel p{
+	color:#365060;
+	float:left;
+	font-size:10px;
+	margin:0;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:2px;
+}
+
+/*Tredje pixellinje i menuen*/
+.menuBottomPixel{
+	background-color:lightgray;
+	float:left;
+	height:1px;
+	overflow:hidden;
+	width:996px;
+}
+
+/*indeholder 3. level i menuen  */
+.menuTable3Level{
+	background-color:#F4F9FC; /*FFFFFF;*/
+	height:20px;
+}
+
+/*spacer til venstre i sidste niveau*/
+.menuBottomEmpty{
+	float:left;
+	height:10px;
+	overflow:hidden;
+	width:19px;
+}
+
+.menuBottomDiv1{
+	background-color:white;
+	float:left;
+	height:13px;
+	margin-top:7px;
+	overflow:hidden;
+	width:1px;
+}
+
+.menuBottomDiv2{
+	float:left;
+	height:13px;
+	padding-left:12px;
+	padding-top:2px;
+	width:380px;
+}
+
+.menuBottomDiv3{
+	background-color:white;
+	float:left;
+	height:13px;
+	margin-top:7px;
+	overflow:hidden;
+	width:1px;
+}
+
+.menuBottomDiv4{
+	background-color:white;
+	float:left;
+	height:13px;
+	margin-left:15px;
+	margin-top:7px;
+	overflow:hidden;
+	width:1px;
+}
+
+.menuBottomDiv5{
+	float:left;
+	padding-top:3px;
+}
+
+.menuBottomDiv6{
+	float:left;
+	overflow:hidden;
+	padding-left:12px;
+	padding-top:9px;
+	width:18px;
+}
+
+.menuBottomDiv7{
+	color:#365060;
+	float:left;
+	font-size:10px;
+	padding-left:9px;
+	padding-top:8px;
+	width:115px;
+}
+
+.menuBottomDiv8{
+	background-color:white;
+	float:left;
+	height:13px;
+	margin-top:7px;
+	overflow:hidden;
+	width:1px;
+}
+
+.menuBottomDiv9{
+	color:#365060;
+	float:left;
+	font-size:10px;
+	font-weight:bold;
+	overflow:hidden;
+	padding-left:19px;
+	padding-top:7px;
+	width:55px;
+}
+
+.menuBottomDiv10{
+	float:left;
+	padding-top:3px;
+}
+
+html>body .menuBottomDiv4{
+	background-repeat:repeat-y;
+}
+
+.menuform1{
+	float:left;
+	overflow:hidden;
+	padding-left:5px;
+	width:46px;
+}
+
+.menuform2{
+	float:left;
+	overflow:hidden;
+	padding-left:5px;
+}
+
+.menuform3{
+	float:left;
+	overflow:hidden;
+	padding-left:5px;
+}
+
+/*portletContent*/
+.portletContent{
+	background-color:#FFFFFF;
+	height:auto;
+	padding-top:0px;
+	padding-bottom:10px;
+	width:996px;
+	text-align:center;
+}
+
+label,
+span{
+	color:#365060;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.menutext{
+    margin-top:2px;
+}
+
+.menutext a{
+	color:#365060;
+	text-decoration:none;
+}
+
+.menuText{
+	font-weight:normal;
+	height:1em;
+	padding-left:10px;
+	padding-top:7px;
+}
+
+.menuInput01{
+	float:left;
+	height:1em;
+	padding-left:10px;
+	padding-top:3px;
+	width:162px;
+}
+
+.menuInput02{
+	float:left;
+	padding-left:10px;
+	padding-top:3px;
+	width:195px;
+}
+
+.menuInput03{
+	float:left;
+	padding-left:10px;
+	padding-top:3px;
+	width:163px;
+}
+
+.menuInput04{
+	float:left;
+	padding-left:10px;
+	padding-top:3px;
+	width:213px;
+}
+.fwSearchHeaderArea {
+    background-color:#F4F9FC;
+    text-align: bottom;
+    height: 32px;
+    vertical-align: bottom;
+}
+.fwSearchForm{
+    clear: none;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+.loginForm {
+    height: 30px;
+}
+.loginAreaEn {
+    width:270px;
+    padding-top:2px;
+}
+loginAreaNo {
+     width:280px; /*280px*/
+     padding-top:2px;
+}
+.menuInput01 form,
+.menuInput02 form,
+.menuInput03 form,
+.menuInput04 form{
+	margin:0;
+	padding:0;
+}
+
+.imer{
+	/*background-color:#CCCCCC;*/
+	height:17px;
+	width:996px;
+	padding-left:20px;
+	padding-top:2px;
+	text-align:right;
+}
+
+.disclaimer p{
+	color:#36505F;
+	padding-left:20px;
+	font-size:9px;
+	text-align:right;
+}
+
+.disclaimer A, .disclaimer A:HOVER{
+    color:#CC3300;
+}
+
