@@ -9,5 +9,5 @@ package kunemata.StockPriceReader;
  */
 public interface StockPriceReaderIF {
 	double getStockPrice() throws Exception;
-	String getLastUpdated() throws Exception;
+	String getLastUpdated();
 }
