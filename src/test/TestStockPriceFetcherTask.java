@@ -21,13 +21,13 @@ public class TestStockPriceFetcherTask {
 	@Before
 	public void setUp() {
 		fetcher = new StockPriceFetcher(new StockPriceURLReader("http://nilapat.cs.sci.ku.ac.th/~usa/418471/SET/quote.php?symbol=", "PPT"));
-		stockPriceFetcherTask = new StockPriceFetcherTask(fetcher);
+		stockPriceFetcherTask = new StockPriceFetcherTask(fetcher, 0, 5000);
 	}
 
 	@Test
 	public void testInitialization() {
 		StockPriceFetcher fetcher = new StockPriceFetcher(new StockPriceURLReader("http://nilapat.cs.sci.ku.ac.th/~usa/418471/SET/quote.php?symbol=", "PPT"));
-		StockPriceFetcherTask fetcherTask = new StockPriceFetcherTask(fetcher);
+		StockPriceFetcherTask fetcherTask = new StockPriceFetcherTask(fetcher, 0, 5000);
 	}
 	
 	@Test
